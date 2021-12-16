@@ -1,0 +1,19 @@
+#elony_Sav {
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 17px 0;
+}
+
+#elony_Sav span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    height: 18px;
+    margin-left: 19px;
+}

@@ -1,0 +1,134 @@
+header {
+    width: calc(100% - 99.34px);
+    background-color: #212121;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 49.34px 16px 50px;
+    align-items: center;
+}
+
+header span {
+    color: #FFFFFF;
+    white-space: nowrap;
+}
+
+.headerpart {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.topHeader {
+    justify-content: space-between;
+    margin-bottom: 49px;
+}
+
+.bottomHeader {
+    justify-content: center;
+}
+
+.topHeaderPart,
+.inputContainer,
+.headerNav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.headerLeft>span {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #A6A6A6;
+    width: 113px;
+}
+
+.headerNav {
+    margin: 0 0 0 37px;
+    line-height: 15px;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.px1 {
+    width: 1px;
+    height: 17px;
+    margin: 0 14px 0 15px;
+    background-color: #5C5C5C;
+}
+
+#headerLeftArrow {
+    width: 9px;
+    height: 5.23px;
+    margin-left: 5.86px;
+    color: #FFFFFF;
+}
+
+.headerMid {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 45px;
+}
+
+.colorPink {
+    color: #F67DA1;
+}
+
+.headerIcon {
+    margin-left: 50px;
+    color: #FFFFFF;
+}
+
+.inputContainer {
+    width: 240px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#searchField {
+    background-color: #212121;
+    border: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+
+#searchField:focus {
+    outline: none;
+}
+
+.inputContainerBorder {
+    height: 1px;
+    width: 100%;
+    background-color: #5C5C5C;
+    position: absolute;
+    bottom: -9px;
+}
+
+.bottomHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    width: 71.4%;
+}
+
+.bottomHeader {
+    text-align: center;
+    text-transform: uppercase;
+}
