@@ -126,9 +126,10 @@ header span {
     font-size: 16px;
     line-height: 20px;
     width: 71.4%;
+    gap: 10px;
 }
 
-.bottomHeader {
+.bottomHeader span {
     text-align: center;
     text-transform: uppercase;
 }

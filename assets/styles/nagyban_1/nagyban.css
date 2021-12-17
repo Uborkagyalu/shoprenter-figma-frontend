@@ -1,0 +1,138 @@
+.nagyban_1 {
+    height: 3600px;
+    position: relative;
+}
+
+.nagyban {
+    height: 700px;
+    background: #FEE1E6;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+#nagybanImg {
+    width: 1200px;
+    height: 700px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.grad {
+    position: absolute;
+    top: 0;
+    right: 950px;
+    width: 250px;
+    height: 700px;
+    background: linear-gradient(270deg, rgba(254, 223, 233, 0) 0%, #FEDFE9 100%);
+}
+
+.nagybanTitle {
+    position: absolute;
+    width: 441px;
+    height: 130px;
+    left: 176px;
+    top: 253px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 130px;
+    line-height: 130px;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.nagybanText {
+    position: absolute;
+    width: 580px;
+    height: 74px;
+    left: 184px;
+    top: 400px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 34px;
+    color: #BA8B88;
+}
+
+.nagybanButton {
+    position: absolute;
+    width: 210px;
+    height: 50px;
+    left: 184px;
+    top: 506px;
+    background: #212121;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.nagybanButton span {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.nagybanButton img {
+    width: 17px;
+    height: 9.35px;
+    margin-left: 17px;
+}
+
+.nagybanbalranyil {
+    position: absolute;
+    left: 19.56px;
+    top: 335px;
+}
+
+.nagybanjobbranyil {
+    position: absolute;
+    right: 21.56px;
+    top: 335px;
+}
+
+.leptetes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 15px;
+    z-index: 1;
+    margin-bottom: 10px;
+}
+
+.alap {
+    width: 10px;
+    height: 10px;
+    background: rgba(33, 33, 33, 0.2);
+    border-radius: 5px;
+}
+
+.BGblack {
+    background: #212121 !important;
+}
+
+#frame {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 927px;
+    bottom: 0;
+    z-index: -1;
+}
+
+#rectangle {
+    position: absolute;
+    width: 23px;
+    height: 19px;
+    left: 51px;
+    top: 42px;
+    background: #C4C4C4;
+    z-index: -1;
+}
