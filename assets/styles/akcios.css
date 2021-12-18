@@ -1,0 +1,173 @@
+.akcios {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.akciosTitle {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.snapContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: calc(100% - 140px);
+    margin: 78px 70px 85px 70px;
+    flex-wrap: wrap;
+}
+
+.snap {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 400px;
+}
+
+.snapImg {
+    position: relative;
+    width: 400px;
+    height: 400px;
+}
+
+.triangle {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 50px 50px 0;
+    border-color: transparent #f4f0f1 transparent transparent;
+    top: 0;
+    right: 0;
+}
+
+.triangle>img {
+    position: absolute;
+    top: 7px;
+    right: -44px;
+}
+
+.snapTitle {
+    margin: 30px 30px 13px 30px;
+    width: 340px;
+    height: 52px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #212121;
+}
+
+.snapText {
+    margin: 0 30px 19px 30px;
+    width: 340px;
+    height: 74px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    color: #A2A2A2;
+}
+
+.ratingCont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 26px;
+}
+
+.snapStar {
+    width: 20px;
+    height: 19px;
+    margin-right: 10px;
+}
+
+.ratingCont>span {
+    margin-left: 3px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    color: #A2A2A2;
+}
+
+.originPrice {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: line-through;
+    color: #A1A1A1;
+}
+
+.newPrice {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 22px;
+    text-align: center;
+    color: #212121;
+}
+
+.cartButton {
+    background: #212121;
+    width: 160px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    padding: 16.5px 0;
+    margin-top: 30px;
+}
+
+.akciosButton {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: uppercase;
+    color: #212121;
+    padding: 16.5px 0;
+    width: 300px;
+    background: #FFFFFF;
+    border: 1px solid #212121;
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 130px;
+}
+
+.akciosButton>span {
+    margin-left: 19px;
+}
+
+.snapImg1 {
+    background: url('../images/snap1.png');
+}
+
+.snapImg2 {
+    background: url('../images/snap2.png');
+}
+
+.snapImg3 {
+    background: url('../images/snap3.png');
+}
+
+.snapImg4 {
+    background: url('../images/snap4.png');
+}

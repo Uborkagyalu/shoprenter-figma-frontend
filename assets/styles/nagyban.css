@@ -1,10 +1,11 @@
 .nagyban_1 {
-    height: 3600px;
     position: relative;
+    width: 100%;
 }
 
 .nagyban {
     height: 700px;
+    width: 100%;
     background: #FEE1E6;
     position: relative;
     display: flex;
@@ -13,12 +14,14 @@
     justify-content: flex-end;
 }
 
-#nagybanImg {
+.nagybanImg {
     width: 1200px;
     height: 700px;
     position: absolute;
     right: 0;
     top: 0;
+    background-image: url("../images/shutterstock_1477405955 1.png");
+    background-repeat: no-repeat;
 }
 
 .grad {
@@ -123,11 +126,11 @@
     width: 100px;
     height: 100px;
     left: 927px;
-    bottom: 0;
+    bottom: -2901px;
     z-index: -1;
 }
 
-#rectangle {
+#rectangle1 {
     position: absolute;
     width: 23px;
     height: 19px;

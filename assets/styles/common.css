@@ -6,3 +6,18 @@ body {
 * {
     font-family: 'Quicksand';
 }
+
+body {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1920px;
+    min-width: 820px;
+}
+
+html {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
